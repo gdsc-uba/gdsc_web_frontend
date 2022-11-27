@@ -1,5 +1,6 @@
 body{
   background-color: #ccc;
+  overflow-x: hidden;
 }
 .bnavbar .avatar{
   background: url('./assets/svgs/circle.svg');
@@ -40,4 +41,23 @@ body{
 .bbutton {
   background-color: #000 !important;
   color: #fff !important;
+}
+
+.home-secion-2 {
+  margin-top: 12rem;
+}
+
+.home-secion-2 .inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc0cb60;
+  background-image: url('./assets/svgs/lines\ 1.svg');
+  border-radius: 16px;
+  height: 300px;
+}
+
+.home-secion-2 .inner h1 {
+  font-size: 4rem;
+  font-weight: bolder;
 }

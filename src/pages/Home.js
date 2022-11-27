@@ -28,6 +28,15 @@ const Home = () => {
                     </svg>
                 </span>
             </section>
+
+            <section className="home-secion-2 container">
+                <div className="text-center inner">
+                    <div>
+                        <h1>Bringing Communities</h1> 
+                        <h1>Together</h1>
+                    </div>
+                </div>
+            </section>
         </div>
      );
 }
