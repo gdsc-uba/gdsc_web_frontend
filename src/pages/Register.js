@@ -11,11 +11,11 @@ function Register() {
                 <p className="sign">Sign Up</p>
                 <p className="here">Welcome Here!</p>
                 <label>Email</label><br/>
-                <input type='text' name='email' value='email'/><br/><br/>
+                <input type='text' name='email' placeholder='email'/><br/><br/>
                 <label>Password</label><br/>
-                <input type='password' name='password' value='password'/><br/><br/>
+                <input type='password' name='password' placeholder='password'/><br/><br/>
                 <label>Confirm Password</label><br/>
-                <input type='password' name='password' value='password'/><br/><br/>
+                <input type='password' name='password' placeholder='password'/><br/><br/>
                 <button type='submit' value="">Sign Up</button>
                 <p><center>Already have an account? <a href='login'>Login</a></center></p>
             </div>
