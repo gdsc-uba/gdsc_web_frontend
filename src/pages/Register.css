@@ -1,0 +1,58 @@
+.info{
+    display: inline-block;
+    float:right;
+    padding: 50px 350px;
+}
+
+.info > input{
+    border:none;
+    outline:none;
+    padding: 9px;
+    background-color: rgb(159, 186, 186);
+    border-radius: 20px;
+    width: 120%;
+}
+
+.sign{
+    color:green;
+    font-size: 26px;
+}
+
+.image{
+    border-radius: 19px;
+    background-color: rgb(183, 207, 207);
+    padding: 3em;
+    height: 35em;
+    width: 26.5em;
+    position: fixed;
+    top: 3em;
+    left: 20%;
+}
+img{
+    height: 15em;
+    width: 18em;
+    position: fixed;
+    margin: 8em 1em;
+}
+.lines{
+    height: 48em;
+    width: 23em;
+    margin: -5em 17em;
+}
+
+.here{
+    font-weight: bolder;
+    font-size: 35px;
+}
+.info > button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 120%;
+    border-radius: 20px;
+}
+.info > label{
+    font-size: 12px;
+}
