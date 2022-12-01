@@ -92,3 +92,14 @@ body{
   background-color: rgba(137, 43, 226, 0.253);
   border-radius: 30px;
 }
+
+.section-5-carousel .bcarousel {
+  width: 180px;
+  border-radius: 30px;
+}
+
+.section-5-carousel .bcarousel img{
+  border-radius: 50%;
+  max-width: 80px;
+  min-height: 80px;
+}
