@@ -35,7 +35,7 @@ const Account = () => {
                             <label class="alabel">Your Email</label><br />
                             <input type="email" class="ainput"></input><br />
                             <label class="alabel">Your Bio</label><br />
-                            <textarea class="ainput bio" type='text-area'></textarea><br />
+                            <textarea class="ainput abio" type='text-area'></textarea><br />
                             <label class="alabel">Your area of interest</label><br />
                             <input type="text" class="ainput"></input><br />
                             <button type="submit" class="ainputs">Save Details</button>
