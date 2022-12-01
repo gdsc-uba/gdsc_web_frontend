@@ -54,6 +54,11 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+
+            <section className="container my-5">
+                <h1 className="stroke-white-text text-center">Projects</h1>
+                <div className="section-4-div"></div>
+            </section>
         </div>
      );
 }
