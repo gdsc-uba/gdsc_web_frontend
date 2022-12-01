@@ -59,6 +59,13 @@ const Home = () => {
                 <h1 className="stroke-white-text text-center">Projects</h1>
                 <div className="section-4-div"></div>
             </section>
+
+            <section className="container text-center p-5 section-5 my-5">
+                <div className="container" style={{width: 50 + '%'}}>
+                    <h1>Lorem Ipsum dolor sit amet, consectetur elit,sed do eiusmod</h1>
+                    <button className="btn bbutton mt-4 px-4 py-2">Join Us</button>
+                </div>
+            </section>
         </div>
      );
 }

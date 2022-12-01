@@ -87,3 +87,8 @@ body{
   height: 80px;
   border-radius: 50px;
 }
+
+.section-5 {
+  background-color: rgba(137, 43, 226, 0.253);
+  border-radius: 30px;
+}
