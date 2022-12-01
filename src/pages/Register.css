@@ -2,11 +2,12 @@
     display: flex;
     flex-direction: row;
     justify-content: column-flex-end;
-    align-items:center;
+    /* align-items:center; */
     flex-shrink:1;
 }
 .info{
     display: block;
+    margin: 3em 0em 0em 0em;
 }
 
 .info > input{
@@ -46,7 +47,7 @@
     display: flex;
     position: relative;
     bottom: 3em;
-    right: 22em;
+    right: 22.5em;
     height: 35em;
     /* margin: 5em 17em; */
     
