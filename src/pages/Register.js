@@ -4,9 +4,9 @@ import './Register.css'
 function Register() {
     return ( 
         <div className="Register">
-            <div className='image'><img src="Tech Life Blockchain.png" alt="Register logo"/>
-            </div>
+            <div className='images'><img src="Tech Life Blockchain.png" alt="Register logo" className='register_image'/>
             <img src='./lines 5.svg' alt='lines' className='lines'/>
+            </div>
             <div className="info">
                 <p className="sign">Sign Up</p>
                 <p className="here">Welcome Here!</p>
