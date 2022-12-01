@@ -1,7 +1,13 @@
+.Register{
+    display: flex;
+    flex-direction: row;
+    justify-content: column-flex-end;
+    /* align-items:center; */
+    flex-shrink:1;
+}
 .info{
-    display: inline-block;
-    float:right;
-    padding: 50px 350px;
+    display: block;
+    margin: 3em 0em 0em 0em;
 }
 
 .info > input{
@@ -18,26 +24,33 @@
     font-size: 26px;
 }
 
-.image{
+.images{
+    display:flex;
     border-radius: 19px;
     background-color: rgb(183, 207, 207);
     padding: 3em;
     height: 35em;
     width: 26.5em;
-    position: fixed;
+    margin: 3em 3em 0em 18em
+    /* position: fixed;
     top: 3em;
-    left: 20%;
+    left: 160em; */
 }
-img{
+.register_image{
     height: 15em;
     width: 18em;
-    position: fixed;
-    margin: 8em 1em;
+    margin: 7em 1em;
+    /* position: fixed;
+    margin: 6em 0.5em; */
 }
 .lines{
-    height: 48em;
-    width: 23em;
-    margin: -5em 17em;
+    display: flex;
+    position: relative;
+    bottom: 3em;
+    right: 22.5em;
+    height: 35em;
+    /* margin: 5em 17em; */
+    
 }
 
 .here{
