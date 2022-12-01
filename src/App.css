@@ -1,7 +1,15 @@
 body{
-  background-color: #ccc;
   overflow-x: hidden;
 }
+
+.gdsc {
+  background-color: #000;
+}
+
+.bnavbar {
+  background-color: #fff;
+}
+
 .bnavbar .avatar{
   background: url('./assets/svgs/circle.svg');
   background-repeat: no-repeat;
@@ -10,6 +18,12 @@ body{
   position: relative;
   top: -15px;
   right: -20px;
+}
+
+main {
+  background-color: #fff;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 .header-section {
@@ -102,4 +116,21 @@ body{
   border-radius: 50%;
   max-width: 80px;
   min-height: 80px;
+}
+
+footer {
+  position: relative;
+}
+
+footer .bg-image {
+  position: absolute;
+}
+
+/* footer .bg1 {
+  top: -40%;
+} */
+
+footer .bg2 {
+  right: 0;
+  top: 0;
 }
