@@ -61,3 +61,23 @@ body{
   font-size: 4rem;
   font-weight: bolder;
 }
+
+.sheight .bg {
+  position: absolute;
+  left: -80px;
+  filter: invert(35%) sepia(91%) saturate(7487%) hue-rotate(355deg) brightness(97%) contrast(121%);
+}
+
+.stroke-white-text{
+    color: #fff;
+    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.575);
+    font-size: 4rem;
+}
+
+.section-3-inner_right {
+  background-color: rgba(127, 255, 212, 0.233);
+  background-image: url('./assets/svgs/lines\ 4.svg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+}
