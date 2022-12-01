@@ -134,3 +134,92 @@ footer .bg2 {
   right: 0;
   top: 0;
 }
+
+/* Account pag */
+.aname{
+  padding-left: 5.5vw;
+  
+}
+.agreetings{
+  font-size: 20px;
+  color: grey;
+  margin-top: 25px;
+  margin-bottom: -25px;
+  padding-top: 10px;
+}
+
+.aaccountdivs{
+  display: flex;
+  padding-top: 30px;
+}
+.aimage{
+  flex: 35%;
+  
+}
+.ainfo{
+  flex: 65%;
+  
+  padding: 2vw;
+}
+.ainput{
+  width: 80%;
+  border-radius: 20px;
+  border: 0px;
+  height: 40px;
+  margin-bottom: 20px;
+  background-color: rgba(162, 135, 140, 0.15);
+}
+.ainputs{
+  width: 80%;
+  border-radius: 20px;
+  border: 0px;
+  height: 40px;
+  margin-bottom: 20px;
+  color: white;
+  background-color: rgba(8, 8, 8, 0.461);
+}
+
+.abio{
+  height: 150px;
+}
+.aApp {
+  text-align: center;
+}
+.alabel{
+  font-weight: 100;
+  font-size: 1vw;
+}
+.acircle1{
+  height: 40%;
+  width: 50%;
+  background-image: url('./assets/svgs/circle.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.aimagediv{
+  background-color: rgba(162, 135, 140, 0.15);
+  height: 290px;
+  width: 70%;
+  border-radius: 20px;
+  margin-top: 40px;
+  padding-top: 20px;
+  background-image: url('./assets/svgs/lines\ 6.svg');
+  background-size: cover;
+  
+}
+.aimages{
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.anametag{
+  color: black;
+  font-size: 28px;
+  padding-top: 10px;
+  font-weight: 700;
+}
+.ajob{
+  color: gray;
+  font-size: 12px;
+}
