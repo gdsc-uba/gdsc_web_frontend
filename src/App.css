@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+body{
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.gdsc {
+  background-color: #000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bnavbar {
+  background-color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bnavbar .avatar{
+  background: url('./assets/svgs/circle.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  top: -15px;
+  right: -20px;
+}
+
+main {
+  background-color: #fff;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.header-section {
+  min-height: 60vh;
+}
+
+.header-section .icon1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.header-section .icon2 {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.header-section .icon3 {
+  position: absolute;
+  right: 0px;
+  bottom: 2em;
+}
+
+.header-main-title {
+  font-size: 4rem;
+}
+
+.bbutton {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.home-secion-2 {
+  margin-top: 12rem;
+}
+
+.home-secion-2 .inner {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-color: #ffc0cb60;
+  background-image: url('./assets/svgs/lines\ 1.svg');
+  border-radius: 16px;
+  height: 300px;
 }
 
-.App-link {
-  color: #61dafb;
+.home-secion-2 .inner h1 {
+  font-size: 4rem;
+  font-weight: bolder;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sheight .bg {
+  position: absolute;
+  left: -80px;
+  filter: invert(35%) sepia(91%) saturate(7487%) hue-rotate(355deg) brightness(97%) contrast(121%);
+}
+
+.stroke-white-text{
+    color: #fff;
+    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.575);
+    font-size: 4rem;
+}
+
+.section-3-inner_right {
+  background-color: rgba(127, 255, 212, 0.233);
+  background-image: url('./assets/svgs/lines\ 4.svg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+}
+
+.section-4-div {
+  background-color: #777777;
+  height: 80px;
+  border-radius: 50px;
+}
+
+.section-5 {
+  background-color: rgba(137, 43, 226, 0.253);
+  border-radius: 30px;
+}
+
+.section-5-carousel .bcarousel {
+  width: 180px;
+  border-radius: 30px;
+}
+
+.section-5-carousel .bcarousel img{
+  border-radius: 50%;
+  max-width: 80px;
+  min-height: 80px;
+}
+
+footer {
+  position: relative;
+}
+
+footer .bg-image {
+  position: absolute;
+}
+
+/* footer .bg1 {
+  top: -40%;
+} */
+
+footer .bg2 {
+  right: 0;
+  top: 0;
 }
