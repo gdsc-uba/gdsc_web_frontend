@@ -9,14 +9,16 @@ const Account = () => {
                 </svg>
             </div>
             <div class="acircle1">
-                
+                <svg width="205" height="205" viewBox="0 0 205 205" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle r="102" transform="matrix(1 0 0 -1 102.5 102.5)" stroke="black"/>
+                </svg>
             </div>
-            <div align="left" class="aname">
+            <div align="left" class="aname mb-4">
                 <h1 class="agreetings">Hello!</h1>
 
             </div>
-            <div class="aaccountdivs">
-                <div class="aimage" align="center">
+            <div class="container aaccountdivs row">
+                <div class="col-md-6 aimage" align="center">
                     <div class="aimagediv">
                         <div class="aimages">
                             <image src="../public/logo192.png"></image>
@@ -27,7 +29,7 @@ const Account = () => {
                         </div>
                     </div>
                 </div>
-                <div class="ainfo">
+                <div class="col-md-6 ainfo">
                     <div>
                         <form>
                             <label class="alabel">Your Name</label><br />

@@ -190,11 +190,9 @@ footer .bg2 {
   font-size: 1vw;
 }
 .acircle1{
-  height: 40%;
-  width: 50%;
-  background-image: url('./assets/svgs/circle.svg');
-  background-position: center;
-  background-repeat: no-repeat;
+  position: absolute;
+  top: -40px;
+  left: -60px;
 }
 .aimagediv{
   background-color: rgba(162, 135, 140, 0.15);
