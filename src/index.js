@@ -12,6 +12,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Login from './pages/Login'
 import Register from './pages/Register'
+import Account from './pages/Account'
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "register",
     element: <Register />
+  },
+  {
+    path: "account",
+    element: <Account />
   }
 ])
 
