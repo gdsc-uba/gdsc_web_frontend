@@ -1,0 +1,71 @@
+.r_Register{
+    display: flex;
+    flex-direction: row;
+    justify-content: column-flex-end;
+    /* align-items:center; */
+    flex-shrink:1;
+}
+.r_info{
+    display: block;
+    margin: 3em 0em 0em 0em;
+}
+
+.r_info > input{
+    border:none;
+    outline:none;
+    padding: 9px;
+    background-color: rgb(159, 186, 186);
+    border-radius: 20px;
+    width: 120%;
+}
+
+.r_sign{
+    color:green;
+    font-size: 26px;
+}
+
+.r_images{
+    display:flex;
+    border-radius: 19px;
+    background-color: rgb(183, 207, 207);
+    padding: 3em;
+    height: 35em;
+    width: 26.5em;
+    margin: 3em 3em 0em 18em
+    /* position: fixed;
+    top: 3em;
+    left: 160em; */
+}
+.r_register_image{
+    height: 15em;
+    width: 18em;
+    margin: 7em 1em;
+    /* position: fixed;
+    margin: 6em 0.5em; */
+}
+.r_lines{
+    display: flex;
+    position: relative;
+    bottom: 3em;
+    right: 22.5em;
+    height: 35em;
+    /* margin: 5em 17em; */
+    
+}
+
+.r_here{
+    font-weight: bolder;
+    font-size: 35px;
+}
+.r_info > button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 120%;
+    border-radius: 20px;
+}
+.r_info > label{
+    font-size: 12px;
+}

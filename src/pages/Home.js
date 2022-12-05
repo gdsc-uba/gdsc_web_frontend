@@ -74,25 +74,25 @@ const Home = () => {
                     </div>
                     <div className="section-5-carousel d-flex justify-content-center">
                         <div className="bcarousel text-center p-4 mx-2" style={{backgroundColor: '#87cefa70'}}>
-                            <img className="img-fluid mx-auto" src="https://cdn.pixabay.com/photo/2017/11/06/13/45/cap-2923682_960_720.jpg"></img>
-                            <h5 className="mt-2">John Doe</h5>
+                            <img className="img-fluid mx-auto" src="https://cdn.pixabay.com/photo/2017/11/06/13/45/cap-2923682_960_720.jpg" alt=''></img>
+                            <h5 className="mt-2" >John Doe</h5>
                             <p>Web Developer</p>
                         </div>
 
                         <div className="bcarousel text-center p-4 mx-2" style={{backgroundColor: '#f0808081'}}>
-                            <img className="img-fluid mx-auto" src="https://cdn.pixabay.com/photo/2017/11/06/13/45/cap-2923682_960_720.jpg"></img>
+                            <img className="img-fluid mx-auto" src="https://cdn.pixabay.com/photo/2017/11/06/13/45/cap-2923682_960_720.jpg" alt=''></img>
                             <h5 className="mt-2">Jane Doe</h5>
                             <p>App Developer</p>
                         </div>
 
                         <div className="bcarousel text-center p-4 mx-2" style={{backgroundColor: '#15739285'}}>
-                            <img className="img-fluid mx-auto" src="https://cdn.pixabay.com/photo/2017/11/06/13/45/cap-2923682_960_720.jpg"></img>
+                            <img className="img-fluid mx-auto" src="https://cdn.pixabay.com/photo/2017/11/06/13/45/cap-2923682_960_720.jpg" alt=''></img>
                             <h5 className="mt-2">John Doe</h5>
                             <p>Web Developer</p>
                         </div>
 
                         <div className="bcarousel text-center p-4 mx-2" style={{backgroundColor: '#87cefa70'}}>
-                            <img className="img-fluid mx-auto" src="https://cdn.pixabay.com/photo/2017/11/06/13/45/cap-2923682_960_720.jpg"></img>
+                            <img className="img-fluid mx-auto" src="https://cdn.pixabay.com/photo/2017/11/06/13/45/cap-2923682_960_720.jpg" alt=''></img>
                             <h5 className="mt-2">John Doe</h5>
                             <p>Web Developer</p>
                         </div>
