@@ -1,11 +1,15 @@
 import React from 'react'
 import styles from './Register.module.css'
 
+//images
+import line5Svg from '../assets/svgs/lines 5.svg'
+import techLifeBlockchainImg from '../assets/images/Tech Life Blockchain.png'
+
 function Register() {
     return ( 
         <div className={styles.r_Register}>
-            <div className={styles.r_images}><img src="Tech Life Blockchain.png" alt="Register logo" className={styles.r_register_image}/>
-            <img src='./lines 5.svg' alt='lines' className={styles.r_lines}/>
+            <div className={styles.r_images}><img src={techLifeBlockchainImg} alt="Register logo" className={styles.r_register_image}/>
+            <img src={line5Svg} alt='lines' className={styles.r_lines}/>
             </div>
             <div className={styles.r_info}>
                 <p className={styles.r_sign}>Sign Up</p>
