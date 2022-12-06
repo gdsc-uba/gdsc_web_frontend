@@ -2,15 +2,15 @@ import newsvg from "../assets/svgs/lines 5.svg"
 
 const Login = () => {
   return (
-    <div className="row py-5" id="main">
-      <div id="img" className="container col-md-6">
-        <img src={require('../assets/images/Tech Life Remote Life.png')} />
-        <img src={newsvg} alt="Your SVG" />
+    <div className="row py-5" id="lmain">
+      <div id="limg" className="container col-md-6">
+        <img className="limg" src={require('../assets/images/Tech Life Remote Life.png')} />
+        <img className="limg" src={newsvg} alt="Your SVG" />
       </div>
 
-      <div id="form" className="container col-md-6" >
+      <div id="lform" className="container col-md-6" >
 
-        <form>
+        <form className="login-form-box">
           <div className="mb-5">
             <h1 style={{ color: "rgb(208, 243, 243)" }}>Login</h1>
             <h2> <span>Welcome back!</span></h2>

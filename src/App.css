@@ -1,41 +1,266 @@
-#main {
- justify-content: center;
-
+body{
+  overflow-x: hidden;
 }
 
-#form {
-  width: 20em;
-  margin-top: 50px;
-  border: none;
+.gdsc {
+  background-color: #000;
+}
+
+.bnavbar {
+  background-color: #fff;
+}
+
+.bnavbar .avatar{
+  background: url('./assets/svgs/circle.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   position: relative;
+  top: -15px;
+  right: -20px;
 }
 
-#img {
-  padding: 3em;
-  height: 40em;
-  width: 30em;
-  top: 3em;
-  border-radius: 2em;
-  background-color: rgb(183, 207, 207);
-  
-
+main {
+  background-color: #fff;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
-img {
-  height: 23em;
-  width: 25em;
-  margin: 8em 1em;
+.header-section {
+  min-height: 60vh;
+}
+
+.header-section .icon1 {
   position: absolute;
- 
+  top: 0px;
+  left: 0px;
 }
- .line{
+
+.header-section .icon2 {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.header-section .icon3 {
+  position: absolute;
+  right: 0px;
+  bottom: 2em;
+}
+
+.header-main-title {
+  font-size: 4rem;
+}
+
+.bbutton {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.home-secion-2 {
+  margin-top: 12rem;
+}
+
+.home-secion-2 .inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc0cb60;
+  background-image: url('./assets/svgs/lines\ 1.svg');
+  border-radius: 16px;
+  height: 300px;
+}
+
+.home-secion-2 .inner h1 {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.sheight .bg {
+  position: absolute;
+  left: -80px;
+  filter: invert(35%) sepia(91%) saturate(7487%) hue-rotate(355deg) brightness(97%) contrast(121%);
+}
+
+.stroke-white-text{
+    color: #fff;
+    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.575);
+    font-size: 4rem;
+}
+
+.section-3-inner_right {
+  background-color: rgba(127, 255, 212, 0.233);
+  background-image: url('./assets/svgs/lines\ 4.svg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+}
+
+.section-4-div {
+  background-color: #777777;
+  height: 80px;
+  border-radius: 50px;
+}
+
+.section-5 {
+  background-color: rgba(137, 43, 226, 0.253);
+  border-radius: 30px;
+}
+
+.section-5-carousel .bcarousel {
+  width: 180px;
+  border-radius: 30px;
+}
+
+.section-5-carousel .bcarousel img{
+  border-radius: 50%;
+  max-width: 80px;
+  min-height: 80px;
+}
+
+footer {
   position: relative;
-} 
-
-
-
-input {
-  border-radius: 5em !important;
-  background-color: rgb(214, 243, 236) !important;
-
 }
+
+footer .bg-image {
+  position: absolute;
+}
+
+/* footer .bg1 {
+  top: -40%;
+} */
+
+footer .bg2 {
+  right: 0;
+  top: 0;
+}
+
+/* Account pag */
+.aname{
+  padding-left: 5.5vw;
+  
+}
+.agreetings{
+  font-size: 20px;
+  color: grey;
+  margin-top: 25px;
+  margin-bottom: -25px;
+  padding-top: 10px;
+}
+
+.aaccountdivs{
+  display: flex;
+  padding-top: 30px;
+}
+.aimage{
+  flex: 35%;
+  
+}
+.ainfo{
+  flex: 65%;
+  
+  padding: 2vw;
+}
+.ainput{
+  width: 80%;
+  border-radius: 20px;
+  border: 0px;
+  height: 40px;
+  margin-bottom: 20px;
+  background-color: rgba(162, 135, 140, 0.15);
+}
+.ainputs{
+  width: 80%;
+  border-radius: 20px;
+  border: 0px;
+  height: 40px;
+  margin-bottom: 20px;
+  color: white;
+  background-color: rgba(8, 8, 8, 0.461);
+}
+
+.abio{
+  height: 150px;
+}
+.aApp {
+  text-align: center;
+}
+.alabel{
+  font-weight: 100;
+  font-size: 1vw;
+}
+.acircle1{
+  position: absolute;
+  top: -40px;
+  left: -60px;
+}
+.aimagediv{
+  background-color: rgba(162, 135, 140, 0.15);
+  height: 290px;
+  width: 70%;
+  border-radius: 20px;
+  margin-top: 40px;
+  padding-top: 20px;
+  background-image: url('./assets/svgs/lines\ 6.svg');
+  background-size: cover;
+  
+}
+.aimages{
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.anametag{
+  color: black;
+  font-size: 28px;
+  padding-top: 10px;
+  font-weight: 700;
+}
+.ajob{
+  color: gray;
+  font-size: 12px;
+}
+
+/* login */
+
+#lmain {
+  justify-content: center;
+ 
+ }
+ 
+ #lform {
+   width: 20em;
+   margin-top: 50px;
+   border: none;
+   position: relative;
+ }
+ 
+ #limg {
+   padding: 3em;
+   height: 40em;
+   width: 30em;
+   top: 3em;
+   border-radius: 2em;
+   background-color: rgb(183, 207, 207);
+   
+ 
+ }
+ 
+ .limg {
+   height: 23em;
+   width: 25em;
+   margin: 8em 1em;
+   position: absolute;
+  
+ }
+  .lline{
+   position: relative;
+ } 
+ 
+ 
+  
+ .login-form-box input {
+   border-radius: 5em !important;
+   background-color: rgb(214, 243, 236) !important;
+ }
