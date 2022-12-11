@@ -221,3 +221,46 @@ footer .bg2 {
   color: gray;
   font-size: 12px;
 }
+
+/* login */
+
+#lmain {
+  justify-content: center;
+ 
+ }
+ 
+ #lform {
+   width: 20em;
+   margin-top: 50px;
+   border: none;
+   position: relative;
+ }
+ 
+ #limg {
+   padding: 3em;
+   height: 40em;
+   width: 30em;
+   top: 3em;
+   border-radius: 2em;
+   background-color: rgb(183, 207, 207);
+   
+ 
+ }
+ 
+ .limg {
+   height: 23em;
+   width: 25em;
+   margin: 8em 1em;
+   position: absolute;
+  
+ }
+  .lline{
+   position: relative;
+ } 
+ 
+ 
+  
+ .login-form-box input {
+   border-radius: 5em !important;
+   background-color: rgb(214, 243, 236) !important;
+ }
